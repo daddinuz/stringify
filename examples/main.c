@@ -29,6 +29,6 @@
 #include <stringify.h>
 
 int main() {
-    printf("%s\r\n", stringify(Hello World!));
+    printf("[%s:%s]: %s\r\n", __FILE__, stringify(__LINE__), stringify(Hello World!));
     return 0;
 }
