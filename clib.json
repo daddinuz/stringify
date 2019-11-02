@@ -3,6 +3,11 @@
   "repo": "daddinuz/stringify",
   "version": "1.0.0",
   "license": "MIT",
+  "description": "C90 macro to stringify things",
+  "keywords": [
+    "stringify",
+    "macro"
+  ],
   "src": [
     "sources/stringify.h"
   ]
