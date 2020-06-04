@@ -1,7 +1,7 @@
 /*
  * The MIT License (MIT)
  *
- * Copyright (c) 2019 Davide Di Carlo
+ * Copyright (c) 2020 Davide Di Carlo
  *
  * Permission is hereby granted, free of charge, to any person
  * obtaining a copy of this software and associated documentation
@@ -29,6 +29,6 @@
 #include <stringify.h>
 
 int main() {
-    printf("[%s:%s]: %s\r\n", __FILE__, stringify(__LINE__), stringify(Hello World!));
+    printf("['%s:%s']: %s\r\n", __FILE__, stringify_lazyQuote(__LINE__), stringify_quote(Hello World!));
     return 0;
 }
